@@ -1,24 +1,70 @@
-# README
+# Book Management App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
+- View Books: Display a list of all books in the collection.
+- Add Book: Add a new book to the collection.
+- Edit Book: Edit the details of an existing book.
+- Delete Book: Remove a book from the collection.
 
-Things you may want to cover:
+## Technologies Used
+- Backend: Ruby on Rails
+- Frontend: React
+- HTTP Client: Axios
 
-* Ruby version
+## Installation and Setup
 
-* System dependencies
+### Backend (Ruby on Rails)
+- Clone the repository:
 
-* Configuration
+```bash
+$ git clone https://github.com/your-username/book-management-app.git
+```
 
-* Database creation
+```bash
+$ cd book-management-app
+```
 
-* Database initialization
+- Install the required gems:
 
-* How to run the test suite
+```bash
+$ bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+- Setup the database:
 
-* Deployment instructions
+```bash
+$ rails db:create
+```
 
-* ...
+```bash
+$ rails db:migrate
+```
+
+```bash
+$ rails db:seed
+```
+
+- Start the Rails server:
+
+```bash
+$ rails server
+```
+
+### Frontend (React)
+- Navigate to the client directory:
+
+```bash
+$ cd client
+```
+
+- Install the required dependencies:
+
+```bash
+$ npm install
+```
+
+-Start the React development server:
+
+```bash
+$ npm start
+```
